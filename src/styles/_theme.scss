@@ -1,0 +1,17 @@
+:root{
+    --text-title: #32333C; 
+    --text-subtitle: #8A8FA3;
+    --text-card: #000000;
+    --bg-header: #FFFFFF;
+    --bg-section: #f6f8fc; 
+    --division: #CCCCCC;
+}
+
+[data-theme="dark"] {
+  --text-title: #CCCCCC;
+  --text-subtitle: #cccccc;
+  --text-card: #CCCCCC; 
+  --bg-header: #252525;
+  --bg-section: #393838;
+  --division: #747272; 
+}
