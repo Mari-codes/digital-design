@@ -5,6 +5,7 @@
     justify-content: space-between;
     height: $h-10vh;
     padding: $padding-md;
+    background-color: var(--bg-header);
 
     &__left {
         width: $w-50;
