@@ -42,3 +42,13 @@
         margin-top: $gap-xl;
     }
 }
+
+@media (max-width: 768px) {
+    .work-experience {
+        &__cards {
+            flex-direction: column;
+            gap: $gap-lg;
+            align-items: center;
+        }
+    }
+}

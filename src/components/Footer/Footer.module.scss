@@ -62,3 +62,19 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    .footer {
+
+        &__top,
+        &__bottom {
+            padding-left: $padding-md;
+            padding-right: $padding-md;
+        }
+
+        &__text {
+            padding-left: $padding-md;
+            padding-right: $padding-md;
+        }
+    }
+}

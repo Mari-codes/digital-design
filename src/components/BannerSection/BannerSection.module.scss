@@ -47,3 +47,16 @@
 
     }
 }
+
+@media (max-width: 768px) {
+    .banner {
+        &__image {
+            display: none;
+        }
+
+        &__content {
+            flex: 1 1 100%;
+            padding: $padding-md;
+        }
+    }
+}
