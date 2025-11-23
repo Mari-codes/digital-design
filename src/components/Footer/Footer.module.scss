@@ -1,0 +1,64 @@
+@import '../../styles/variables';
+
+.footer {
+    width: $w-100p;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--bg-header);
+
+    &__top {
+        padding: $padding-y-xl;
+    }
+
+    &__text {
+        margin: $gap-lg 0;
+        color: var(--text-subtitle);
+    }
+
+    &__brand {
+        max-width: $max-600;
+        width: $w-100p;
+    }
+
+    &__icons {
+        max-width: $max-365;
+        width: $w-100p;
+        margin: 0 auto;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        gap: $gap-sm;
+
+        & img {
+            width: $w-45;
+            height: $h-45;
+        }
+    }
+
+    &__line {
+        width: 100%;
+        border-top: 1px solid var(--division);
+        margin: 0 auto;
+    }
+
+
+    &__bottom {
+        display: flex;
+        padding: $padding-y-md;
+        gap: $gap-sm;
+        justify-content: center;
+        align-items: center;
+        font-weight: $fw-medium;
+
+        & p {
+            color: var(--text-subtitle);
+        }
+
+        & span {
+            color: $yellow-400;
+        }
+    }
+}
