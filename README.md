@@ -1,16 +1,58 @@
-# React + Vite
+# Digital Design Agency
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a **branding agency landing page** built with modern web technologies. It features **light and dark themes**, responsive design, and component-based architecture.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **Vite** 
+- **SASS**
+- **CSS Modules** 
+- **BEM methodology**
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Light and Dark Theme:** Users can switch between themes using the theme toggle.
+- **Responsive Design:** Fully functional on desktop and mobile devices.
+- **Component-Based:** Each section (Header, BannerSection, WorkExperienceSection, Home) is modular and reusable.
+- **CSS Variables & Tokens:** Colors, fonts, and spacing are managed with tokens and theme variables for consistency.
 
-## Expanding the ESLint configuration
+## Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<div align="center">
+
+### Desktop Light Mode
+<img src="src/assets/screenshots/desktop-light.png" alt="Desktop Light" width="600"/>
+
+### Desktop Dark Mode
+<img src="src/assets/screenshots/desktop-dark.png" alt="Desktop Dark" width="600"/>
+
+### Mobile Light Mode
+<img src="src/assets/screenshots/mobile-light.png" alt="Mobile Light" width="300"/>
+
+### Mobile Dark Mode
+<img src="src/assets/screenshots/mobile-dark.png" alt="Mobile Dark" width="300"/>
+
+</div>
+
+
+## How to Run
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+cd <project-folder>
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start development server: 
+
+```bash
+npm run dev
+```
