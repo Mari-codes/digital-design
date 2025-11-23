@@ -19,6 +19,16 @@
         font-size: $fs-45;
         margin-bottom: $gap-lg;
         color: var(--text-title);
+
+        &::after {
+            content: "";
+            display: block;
+            width: $w-100;
+            height: 3px;
+            background-color: $yellow-400;
+            margin: 0 auto;
+            margin-top: 0.25rem;
+        }
     }
 
     &__text {
