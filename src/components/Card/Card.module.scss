@@ -1,0 +1,35 @@
+@import '../../styles/variables';
+
+.card {
+    max-width: $w-300;
+    width: $w-100p;
+    padding: $padding-custom;
+    color: var(--text-card);
+    transition: background-color 0.9s ease;
+    border: 1px solid $light-gray;
+
+    &:hover {
+        background-color: $yellow-400;
+    }
+
+    &__header {
+        margin-bottom: $gap-md;
+    }
+
+    &__date {
+        font-size: $fs-16;
+    }
+
+    &__role {
+        margin: $gap-sm 0;
+        font-size: $fs-24;
+    }
+
+    &__company {
+        font-style: italic;
+    }
+
+    &__description {
+        font-size: $fs-16;
+    }
+}
