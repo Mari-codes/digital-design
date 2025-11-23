@@ -5,6 +5,8 @@
     --bg-header: #FFFFFF;
     --bg-section: #f6f8fc; 
     --division: #CCCCCC;
+
+    transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 [data-theme="dark"] {
@@ -13,5 +15,7 @@
   --text-card: #CCCCCC; 
   --bg-header: #252525;
   --bg-section: #393838;
-  --division: #747272; 
+  --division: #747272;
+
+  transition: background-color 0.4s ease, color 0.4s ease;
 }

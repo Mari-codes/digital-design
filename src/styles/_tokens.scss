@@ -1,5 +1,6 @@
 $blue-900: #022144;
 $off-white: #fafbfc;
+$light-gray: #e0e0e0;
 
 $yellow-400: #feb633;
 
@@ -12,7 +13,9 @@ $padding-xxl: 6rem;
 $padding-x-md: 0rem 1.25rem;
 $padding-y-md: 1.25rem 0rem;
 $padding-x-lg: 1.875rem 4.375rem;
-$padding-y-xl: 0rem 6.25rem;
+$padding-y-xl: 6.25rem 0rem;
+$padding-custom: 4.375rem 1.875rem;
+$padding-100-20: 6.25rem 1.25rem;
 
 $gap-sm: 5px;
 $gap-md: 20px;
@@ -22,6 +25,7 @@ $gap-xl: 50px;
 $w-50: 50px;
 $w-35: 35px;
 $w-45: 45px;
+$w-100: 100px;
 $w-300: 300px;
 $w-50p: 50%;
 $w-100p: 100%;
@@ -40,8 +44,11 @@ $radius-full: 50%;
 
 $fs-12: 12px;
 $fs-16: 16px;
+$fs-18: 18px;
 $fs-20: 20px;
 $fs-24: 24px;
+$fs-40: 40px;
+$fs-45: 45px;
 $fs-50: 50px;
 
 $fw-normal: 400;
