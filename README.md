@@ -1,6 +1,7 @@
 # Digital Design Agency
 
-## Read this in other languages - [Português (Brasil)](./docs/README.pt-BR.md)
+## Read this in other languages 
+- [Português (Brasil)](./docs/README.pt-BR.md)
 
 This project is a **branding agency landing page** built with modern web technologies. It features **light and dark themes**, responsive design, and component-based architecture.
 
